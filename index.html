@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./script.js">
+
+    <title>Portfólio Aléxia </title>
+</head>
+
+<body>
+    <!--Container da navegação-->
+    <nav class="box">
+        <ul>
+            <li class="nav-item"><a href="#sobre">Sobre Mim</a></li>
+            <li class="nav-item"><a href="#formacao">Formação Acadêmica</a></li>
+            <li class="nav-item"><a href="#portfolio">Portfólio</a></li>
+            <li class="nav-item"><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <!-- Seção Home com imagem e texto de boas-vindas -->
+    <section class="Home">
+        <div class="container">
+            <div class="img-home">
+                <img src="./src/eu-robo.png">
+            </div>
+            <div class="text-home">
+                <h1>Seja bem-vindo <br> ao meu website</h1>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="sobre">
+        <div class="about-content">
+            <div class="text-box">
+                <h2>Sobre Mim</h2>
+                <p>Olá! Meu nome é Aléxia, e sou apaixonada por tecnologia e criação de conteúdo. <br> Atualmente, estou
+                    cursando Análise e Desenvolvimento de Sistemas na Faculdade Uninter, <br> onde estou constantemente
+                    aprimorando meus conhecimentos em programação, <br> com foco em desenvolvimento frontend. </p>
+                <p>O meu interesse pelo mundo da tecnologia e programação começou de forma inusitada, <br> ao
+                    desenvolver um pequeno jogo de adivinhação em Java durante uma aula. <br> Essa experiência me fez
+                    perceber as infinitas possibilidades que a programação oferece, o que só aumentou a minha paixão por
+                    essa área.</p>
+                <p>Além da tecnologia, algo que é essencial para mim é a minha família. <br> Passar tempo com eles é
+                    algo que me faz bem, e é uma das formas que encontro para me desconectar do ritmo acelerado do dia a
+                    dia. <br> A leitura também ocupa um lugar especial na minha vida;<br> é através dos livros que
+                    encontro novas perspectivas e me inspiro para os desafios que surgem no caminho.</p>
+            </div>
+        </div>
+    </section>
+    <section class="formacao-academica" id="formacao">
+        <div class="text-box">
+            <h2>Formação Acadêmica</h2>
+            <p>Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na Faculdade Uninter. <br> Durante o
+                curso, tenho me dedicado ao estudo de diversas áreas da tecnologia, com ênfase em programação e
+                desenvolvimento frontend. <br> Também participei de cursos e workshops complementares para expandir meu
+                conhecimento técnico e prático na área.</p>
+            <p>Além disso, estou sempre buscando novas oportunidades de aprendizado para me manter atualizada com as
+                tendências e inovações do mercado de tecnologia.</p>
+    </section>
+    </div>
+    <section class="portfolio" id="portfolio">
+        <div class="text-box">
+            <h2>Portfólio</h2>
+            <p>Veja alguns dos meus trabalhos abaixo:</p>
+            <iframe src="https://alexiasilveira.github.io/landing-livraria/" width="1100" height="600" frameborder="0"
+                allowfullscreen></iframe>
+
+    </section>
+    </div>
+    <section class="contato" id="contato">
+        <h2>Contato</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Deixe a sua mensagem aqui:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </section>
+</body>
+
+</html>
